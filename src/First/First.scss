@@ -1,0 +1,30 @@
+//@import "node_modules/azure-devops-ui/Core/_platformCommon.scss";
+
+.sample-form-section {
+    margin-top: 20px;
+}
+
+.sample-work-item-id-input {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.sample-work-item-type-picker {
+    width: 250px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.sample-work-item-button {
+    align-self: flex-end;
+    //width: 80px;
+}
+
+/* Source: http://snipplr.com/view/10979/css-cross-browser-word-wrap */
+.wordwrap { 
+    white-space: pre-wrap;      /* CSS3 */   
+    white-space: -moz-pre-wrap; /* Firefox */    
+    white-space: -pre-wrap;     /* Opera <7 */   
+    white-space: -o-pre-wrap;   /* Opera 7 */    
+    word-wrap: break-word;      /* IE */
+}
